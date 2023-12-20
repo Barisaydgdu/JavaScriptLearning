@@ -6,7 +6,7 @@
 // let firstName = "Baris"
 // let first = 'jonas'
 
-// //veriable name conventions 
+// //veriable name conventions
 // let jonasAndMatilda = 'JM'
 // let $new = 27;
 
@@ -33,7 +33,7 @@
 //let javaScriptIsFun = true;
 //console.log(javaScriptIsFun)
 
-// typeof 
+// typeof
 // console.log(typeof javaScriptIsFun + "is javaScriptIsFun's type")
 // console.log(typeof job1)
 
@@ -52,9 +52,9 @@
 // console.log(typeof null + " is null's type")
 
 
-// //const - var 
+// //const - var
 
-// const is never changed!! 
+// const is never changed!!
 // var is like let
 
 // let age = 30;
@@ -98,10 +98,77 @@
 // console.log(ageBaris == 22)
 
 // const isFullAge = ageSarah >= 18;
-const now = 2024;
-const ageBaris = now - 2002;
-const ageSarah = now - 2003;
+// const now = 2024;
+// const ageBaris = now - 2002;
+// const ageSarah = now - 2003;
 
-console.log(now - 2003 > now - 2002)
+// console.log(now - 2003 > now - 2002)
+
+//-----------------------------------------
+
+// const firstName = "Baris";
+// const JOB = "Programmer";
+// const birthday = 2002;
+// const year = 2024;
 
 
+// const baris = "I'm " + firstName + ', a ' + (year - birthday) + ' years old ' + JOB + ' !'
+// console.log(baris)
+
+// const barisNew = `I'm ${firstName}, a ${year - birthday} years old ${JOB} !`;
+// console.log(barisNew)
+
+// console.log('Just a regular string...')
+
+// console.log('String with \n\ multiple \n\ lines')
+// console.log(`String
+// multiple
+// lines`)
+
+//Mental Breakdown 🚗🚗🚗
+
+// const totalMoney = 10000;
+// const isenough = totalMoney <= 1000;
+
+// if (isenough) {
+//     console.log("you are poor")
+// }
+// else {
+//     console.log("you are rich or what maaaan")
+// }
+
+
+// const age = 15;
+// const isOldEnoug = age >= 18;
+
+// if (isOldEnoug) {
+//     console.log("Sarah can start driving license 🚗 ")
+// }
+// else {
+//     const yearsleft = 18 - age;
+//     console.log(`Sarah is too young. Wait  another ${yearsleft} years :)`)
+// }
+
+// const birthday = 2002;
+// let century;
+// if (birthday <= 2000) {
+//     century = 20
+// }
+// else {
+//     century = 21;
+//     console.log('gen z baby')
+// }
+// console.log(century)
+
+const inputYear = '2002';
+console.log(Number(inputYear), inputYear)
+//console.log(inputYear + 18); // 200218
+console.log(Number(inputYear) + 18); // 2020
+console.log(Number('baris')) //NaN its mean this is a not a number OK
+console.log(String(23), 23)
+
+
+// type coercian
+
+console.log('I am ' + 22 + ' years old')
+console.log('23' + '10' + 3)
