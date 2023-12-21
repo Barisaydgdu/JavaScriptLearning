@@ -172,3 +172,6 @@ console.log(String(23), 23)
 
 console.log('I am ' + 22 + ' years old')
 console.log('23' + '10' + 3)
+
+
+//pushla aq yurdunda int cekmedigi icin pushlayamadik.
