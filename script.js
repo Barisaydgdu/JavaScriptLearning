@@ -151,7 +151,7 @@
 
 // const birthday = 2002;
 // let century;
-// if (birthday <= 2000) {
+// if (birthday <= 2000) { 
 //     century = 20
 // }
 // else {
@@ -174,4 +174,3 @@ console.log('I am ' + 22 + ' years old')
 console.log('23' + '10' + 3)
 
 
-//pushla aq yurdunda int cekmedigi icin pushlayamadik.
